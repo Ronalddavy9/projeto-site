@@ -3,13 +3,38 @@
     font-size: 16x;
 }
 body{
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.541);
+
+}
+
+img.lado{
+    float: right;
 
 }
 main{
-    background-color: white;
+    background-color: rgb(228, 209, 209);
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3 px 5px rgba(0, 0, 0, 0.548);
+}
+h1{
+    font-size: 2em;
+    color: rgb(red, green, blue);
+}
+
+h2{
+    font-size: 1.5em;
+    color: rgb(red, green, blue);
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(red, green, blue);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(red, green, blue);
 }
